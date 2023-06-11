@@ -71,7 +71,6 @@ const AddEditProduct = ({ id }) => {
       Brand &&
       Description &&
       Price &&
-      Offer &&
       Discount &&
       productNo &&
       selectedFile
