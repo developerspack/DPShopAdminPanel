@@ -82,6 +82,7 @@ const AddEditProduct = ({ id }) => {
           setIsLoading(false);
         } else {
           try {
+            setIsLoading(true);
             uploadDocument("products", form, selectedFile);
             router.push("/ProductView");
             setIsLoading(false);
@@ -96,6 +97,7 @@ const AddEditProduct = ({ id }) => {
           setIsLoading(false);
         } else {
           try {
+            setIsLoading(true);
             UpdateDcoument("products", form.id, selectedFile, imageUrl, form);
             router.push("/ProductView");
             setIsLoading(false);
