@@ -32,7 +32,7 @@ const BrandCard = ({ id, imageUrl, Brand }) => {
         <td className="flex gap-3">
           <RiEditBoxLine
             className="h-6 w-6 text-green-500 hover:text-green-600 cursor-pointer"
-            onClick={() => router.push(`/updateCategory/${id}`)}
+            onClick={() => router.push(`/updateBrand/${id}`)}
           />
           <MdDeleteOutline
             className="h-6 w-6 text-red-500 hover:text-red-600 cursor-pointer"
