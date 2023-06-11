@@ -141,8 +141,8 @@ const AddEditBrand = ({ id }) => {
               <AiOutlineTag className="w-5 h-5 text-black" />
               <input
                 type="text"
-                placeholder="Category Name"
-                name="Category"
+                placeholder="Brand Name"
+                name="Brand"
                 onChange={handleChange}
                 value={Brand}
                 className="block w-full pl-10 p-2 bg-gray-100 border-none outline-none text-gray-800 placeholder:text-gray-600"
