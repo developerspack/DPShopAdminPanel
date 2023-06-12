@@ -47,7 +47,7 @@ const Login = () => {
               router.push("/Dashboard");
               toast.success("Login successfully");
             } else {
-              toast.error("You Not Adminstatrator of GG Shop");
+              toast.error("You Not Adminstatrator of DP Shop");
               setIsloadingForm(false);
             }
           } else {
@@ -86,7 +86,7 @@ const Login = () => {
               router.push("/Dashboard");
               toast.success("Login successfully");
             } else {
-              toast.error("You Are Not Adminstatrator of GG Shop");
+              toast.error("You Are Not Adminstatrator of DP Shop");
               setIsloading(false);
             }
           } else {
@@ -97,7 +97,7 @@ const Login = () => {
               timeStamp: serverTimestamp(),
             });
             setIsloading(false);
-            toast.error("You Are Not Adminstatrator of GG Shop");
+            toast.error("You Are Not Adminstatrator of DP Shop");
           }
         };
         setIsloading(false);
@@ -125,7 +125,7 @@ const Login = () => {
         <div className="w-full xl:w-1/2 xl:border-l-4 border-gray-500">
           <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
             <h2 className="mb-9 text-2xl font-bold text-white sm:text-title-xl2">
-              Login To GG Shop AdminPanel
+              Login To DP Shop AdminPanel
             </h2>
 
             <form onSubmit={loginUser}>

@@ -51,7 +51,6 @@ const OrderChart = () => {
   const cancelled = getOrderCount(array, q4);
 
   const options = {
-    responsive: true,
     plugins: {
       legend: {
         display: false,

@@ -45,7 +45,6 @@ const ProductChart = ({ products }) => {
   }, []);
 
   const options = {
-    responsive: true,
     plugins: {
       legend: {
         display: false,
