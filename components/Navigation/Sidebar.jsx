@@ -24,8 +24,8 @@ const Sidebar = () => {
     <div className="ml-3 h-screen md:overflow-hidden overflow-auto pb-10  duration-300 ease-linear">
       <div className="flex justify-between items-center pt-3 ml-3">
         <a href="/">
-          <span className="text-primary font-bold text-3xl px-1">GG</span>
-          <span className="text-2xl font-semibold">Enterprise</span>
+          <span className="text-primary font-bold text-3xl px-1">DP</span>
+          <span className="text-2xl font-semibold text-white">Shop</span>
         </a>
       </div>
       <div className="mt-8">
