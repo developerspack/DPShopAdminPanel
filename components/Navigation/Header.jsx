@@ -64,8 +64,8 @@ const Navbar = () => {
         <div className="absolute left-10 top-3">
           <div className="flex justify-between items-center pt-2 ml-3">
             <a href="/">
-              <span className="text-primary font-bold text-3xl px-1">GG</span>
-              <span className="text-2xl font-semibold">Enterprise</span>
+              <span className="text-primary font-bold text-3xl px-1">DP</span>
+              <span className="text-2xl font-semibold">Shop</span>
             </a>
           </div>
         </div>
