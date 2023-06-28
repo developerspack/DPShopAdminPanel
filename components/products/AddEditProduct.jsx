@@ -149,7 +149,7 @@ const AddEditProduct = ({ id }) => {
       setFileType(false);
     }
   };
-  // console.log(form);
+  console.log(selectedFile);
   return (
     <form
       className="lg:w-[40%] w-[85%] flex flex-col items-center m-auto p-12 py-8

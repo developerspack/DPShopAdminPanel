@@ -27,7 +27,7 @@ const Orders = () => {
   const filteredOrders = useSelector(selectFilteredOrders);
   // Pagination states
   const [currentPage, setCurrentPage] = useState(1);
-  const [ordersPerPage, setordersPerPage] = useState(6);
+  const [ordersPerPage, setordersPerPage] = useState(4);
   // Get Current orders
   const indexOfLastOrder = currentPage * ordersPerPage;
   const indexOfFirstOrder = indexOfLastOrder - ordersPerPage;

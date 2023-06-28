@@ -49,7 +49,7 @@ const Banner = () => {
             </div>
           ) : (
             <div className="min-h-screen flex items-center justify-center">
-              <div className="shadow-md sm:rounded-lg mt-40 lg:-mr-52 w-[85%] overflow-x-auto">
+              <div className="shadow-md sm:rounded-lg mt-40 lg:-mr-32 w-[85%] overflow-x-auto">
                 {data.map((banner, id) => (
                   <div key={id}>
                     <ViewBanner {...banner} />

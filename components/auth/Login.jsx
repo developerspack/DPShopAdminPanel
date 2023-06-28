@@ -121,7 +121,6 @@ const Login = () => {
             </span>
           </div>
         </div>
-
         <div className="w-full xl:w-1/2 xl:border-l-4 border-gray-500">
           <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
             <h2 className="mb-9 text-2xl font-bold text-white sm:text-title-xl2">
