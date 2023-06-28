@@ -61,7 +61,7 @@ const Orders = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div className="min-h-screen flex items-center justify-center">
-        <div className="shadow-md sm:rounded-lg lg:w-1/2 lg:-mr-52 w-[85%] overflow-x-auto">
+        <div className="shadow-md sm:rounded-lg lg:w-1/2 lg:-mr-52 w-[85%] overflow-x-auto mt-4">
           {loading ? (
             <div className="z-50 flex flex-col items-center justify-center">
               <div className="flex items-center gap-3">
